@@ -6,5 +6,6 @@ https://omniarchive.uk/discord
 To run the python scripts you will need:
 
 BeautifulSoup4
+<br>
 requests
 
