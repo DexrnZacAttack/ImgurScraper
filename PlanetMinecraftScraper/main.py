@@ -9,11 +9,8 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 }
 
-# create a file to store the links (if it doesn't exist)
-f = open('links.txt', 'a')
-
 # Loop through the pages of search results
-for page_num in range(1, 1000):
+for page_num in range(101, 200):
     
     print("Page num: " + str(page_num))
     # Construct the URL of the search results page to scrape
@@ -42,8 +39,6 @@ for page_num in range(1, 1000):
             if url.endswith(('.png', '.jpg', '.gif')):
                 url = url[url.find('http'):]
                 url = url[:url.find('.')] + url[url.find('.'):]
-                f.write(url + '\n')
-                print(url)
-
-# Close the file when done writing
-f.close()
+                with open('links.txt', 'a') as f:
+                    f.write(url + '\n')
+                    print(url)
