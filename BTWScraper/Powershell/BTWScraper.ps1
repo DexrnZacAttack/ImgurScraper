@@ -16,10 +16,10 @@ $headers = @{
 }
 
 # set the starting topic ID to crawl
-$start_topic_id = 10000
+$start_topic_id = 1
 
 # set the ending topic ID to crawl
-$end_topic_id = 100000
+$end_topic_id = 1000000
 
 # create a file to store the links (if it doesn't exist)
 $links_file = "links.txt"
