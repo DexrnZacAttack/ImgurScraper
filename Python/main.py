@@ -3,6 +3,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import sys
+# You should set this to something ridiculous
 sys.setrecursionlimit(999999)
 
 # set the base URL of the forum
@@ -15,7 +16,7 @@ headers = {
 # set the starting topic ID to crawl
 start_topic_id = 1000
 
-# set the ending topic ID to crawl
+# set the ending topic ID to crawl 
 end_topic_id = 10000
 
 # create a file to store the links (if it doesn't exist)
