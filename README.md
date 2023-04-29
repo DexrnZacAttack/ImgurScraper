@@ -3,8 +3,8 @@ Imgur is deleting old images, so we are making scrapers for popular minecraft fo
 
 [Omniarchive Discord](https://omniarchive.uk/discord)
 
-To run the python scripts you will need:
 
+# Requirements
 BeautifulSoup4
 <br>
 requests
