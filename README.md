@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" width="250" title="hover text">
+</p>
+
 # ImgurScraper
 Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgur-Terms-of-Service-Update-April-19-2023-)  their "Library of Alexandria", so we are making scrapers for popular Minecraft forums for archival purposes.
 
