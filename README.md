@@ -9,6 +9,6 @@ Imgur is deleting  their "Library of Alexandria", so we are making scrapers for 
 - requests
 - PRAW (Only if scraping Reddit)
 
-# Contributors:
+# Contributors
 - Dexrn#0975
 - Boreal#9423
