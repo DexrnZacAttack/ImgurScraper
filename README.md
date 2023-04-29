@@ -8,6 +8,8 @@ To run the python scripts you will need:
 BeautifulSoup4
 <br>
 requests
+<br>
+PRAW (Only if scraping Reddit)
 
 # Made by:
 Boreal#9423
