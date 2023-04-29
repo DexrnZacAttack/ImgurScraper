@@ -4,13 +4,18 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 [Omniarchive Discord](https://omniarchive.uk/discord)
 
 
-# Requirements
-- BeautifulSoup4
+# Dependencies
+### Global (Python)
+- Python 3.11
+- BeautifulSoup4 (BS4)
 - requests
-- PRAW (Only if scraping Reddit)
-- ConfigParser (Only if scraping Reddit)
-- Urllib (Only if scraping Reddit)
-- Blake3 (Only if scraping Reddit)
+### Reddit
+- PRAW
+- ConfigParser
+- Urllib
+- Blake3
+### PowerShell
+All dependencies are automatically downloaded for PowerShell.
 
 # Contributors
 - Dexrn#0975
