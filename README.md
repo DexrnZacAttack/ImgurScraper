@@ -24,3 +24,4 @@ All dependencies are automatically downloaded for PowerShell.
 # Contributors
 - Dexrn#0975
 - Boreal#9423
+- Maxxx#5509
