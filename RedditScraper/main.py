@@ -2,8 +2,8 @@ import praw
 import os
 
 # Set up the Reddit instance and the subreddit to scrape
-reddit = praw.Reddit(client_id='vYeGNSLN1VqcxvRvolu4Bw',
-                     client_secret='81SufJbzWWdFLg60cUiupfZegGpz3w',
+reddit = praw.Reddit(client_id='YOUR_CLIENT_ID_HERE',
+                     client_secret='YOUR_CLIENT_SECRET_HERE',
                      user_agent='imgurscraper by v1.0 by /u/ZacAttackedYou)')
 subreddit = reddit.subreddit('minecraft')
 posts = subreddit.new(params={'sort': 'old'})
