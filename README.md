@@ -8,6 +8,9 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 - BeautifulSoup4
 - requests
 - PRAW (Only if scraping Reddit)
+- ConfigParser (Only if scraping Reddit)
+- Urllib (Only if scraping Reddit)
+- Blake3 (Only if scraping Reddit)
 
 # Contributors
 - Dexrn#0975
