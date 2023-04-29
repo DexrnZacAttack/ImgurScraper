@@ -9,6 +9,8 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 - Python 3.11
 - BeautifulSoup4 (BS4)
 - requests
+### Mojira
+- jira
 ### Reddit
 - PRAW
 - ConfigParser
