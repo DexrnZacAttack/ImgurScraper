@@ -17,11 +17,22 @@ if not os.path.exists(links_file):
 # search for issues containing "imgur" in the summary or description using the JIRA REST API
 params = {
     "jql": 'summary ~ "imgur" OR description ~ "imgur"',
-    "fields": "key"
+    "fields": "key",
+    "maxResults": 1000,
+    "startAt": 0
 }
-response = requests.get(search_url, headers=headers, params=params)
-data = response.json()
-issues = data.get("issues", [])
+
+issues = []
+start_at = 0
+while True:
+    params["startAt"] = start_at
+    response = requests.get(search_url, headers=headers, params=params)
+    data = response.json()
+    results = data.get("issues", [])
+    if not results:
+        break
+    issues += results
+    start_at += len(results)
 
 # loop through each issue and search for imgur links in the comments
 for issue in issues:
