@@ -5,9 +5,10 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 
 
 # Requirements
+### Global
 - BeautifulSoup4
 - requests
-## Reddit
+### Reddit
 - PRAW
 - ConfigParser
 - Urllib
