@@ -1,15 +1,13 @@
 # ImgurScraper
-Imgur is deleting old images, so we are making scrapers for popular minecraft forums for archival purposes.
+Imgur is deleting  their "Library of Alexandria", so we are making scrapers for popular Minecraft forums for archival purposes.
 
 [Omniarchive Discord](https://omniarchive.uk/discord)
 
 
 # Requirements
-BeautifulSoup4
-<br>
-requests
-<br>
-PRAW (Only if scraping Reddit)
+- BeautifulSoup4
+- requests
+- PRAW (Only if scraping Reddit)
 
 # Made by:
 Boreal#9423
