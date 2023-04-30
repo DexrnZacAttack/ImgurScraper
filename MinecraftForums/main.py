@@ -1,6 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
+# Print GitHub link so people can report issues or visit the repo.
+print('https://github.com/DexrnZacAttack/ImgurScraper')
+
 # Set the base URL of the Minecraft Forum search page
 base_url = 'https://www.minecraftforum.net/forums/search?display-type=0&forum-scope=f&page={}&search=imgur&search-type=2&submit=y'
 
