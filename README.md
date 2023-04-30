@@ -8,6 +8,11 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 [Omniarchive Discord](https://omniarchive.uk/discord)
 
 
+# How to use
+main.py runs the script, usually there are settings in the script that you should modify.
+<br>
+<br>
+cleanup.py cleans up links.txt, which will remove duplicate links and make Discord-sized chunks ready for Discord batch sending.
 # Dependencies
 ### Global (Python)
 - Python 3.11
