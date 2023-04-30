@@ -6,6 +6,9 @@ import sys
 # You should set this to something ridiculous
 sys.setrecursionlimit(999999)
 
+# Print GitHub link so people can report issues or visit the repo.
+print('https://github.com/DexrnZacAttack/ImgurScraper')
+
 # set the base URL of the forum
 base_url = "https://sargunster.com/btwforum/viewtopic.php?t="
 
