@@ -2,7 +2,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 
-# Set the base URL of the PlanetMinecraft search page
+# Set the base URL of the FeedTheBeast search page
 base_url = 'https://forum.feed-the-beast.com/search/2709865/?page={}&q=imgur&o=date'
 
 headers = {
