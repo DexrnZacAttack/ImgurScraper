@@ -2,6 +2,9 @@ import os
 import re
 import requests
 
+# Print GitHub link so people can report issues or visit the repo.
+print('https://github.com/DexrnZacAttack/ImgurScraper')
+
 jira_url = "https://bugs.mojang.com/"
 search_url = f"{jira_url}rest/api/2/search"
 headers = {
