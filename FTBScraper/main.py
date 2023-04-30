@@ -3,7 +3,7 @@ import os
 from bs4 import BeautifulSoup
 
 # Print GitHub link so people can report issues or visit the repo.
-print(https://github.com/DexrnZacAttack/ImgurScraper)
+print('https://github.com/DexrnZacAttack/ImgurScraper')
 
 # Set the base URL of the FeedTheBeast search page
 base_url = 'https://forum.feed-the-beast.com/search/2709865/?page={}&q=imgur&o=date'
