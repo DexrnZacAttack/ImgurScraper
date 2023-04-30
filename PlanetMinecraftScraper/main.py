@@ -2,6 +2,10 @@ import requests
 import os
 from bs4 import BeautifulSoup
 
+# Print GitHub link so people can report issues or visit the repo.
+print('https://github.com/DexrnZacAttack/ImgurScraper')
+
+
 # Set the base URL of the PlanetMinecraft search page
 base_url = 'https://www.planetminecraft.com/forums/search/?keywords=imgur&p={}'
 
