@@ -4,6 +4,10 @@ import re
 from bs4 import BeautifulSoup
 import atexit
 
+# Print GitHub link so people can report issues or visit the repo.
+print('https://github.com/DexrnZacAttack/ImgurScraper')
+
+
 # Set up the Reddit instance and the subreddit to scrape
 reddit = praw.Reddit(client_id='vYeGNSLN1VqcxvRvolu4Bw',
                      client_secret='81SufJbzWWdFLg60cUiupfZegGpz3w',
