@@ -1,9 +1,12 @@
-
 def cleanup(filename):
-    
     proceed = input("Do you want to remove duplicate lines and format the file? (Y/N)").lower()
-
+    
     if proceed == 'y':
+        char_limit = 1000
+        discord_nitro = input("Do you have Discord Nitro (not Basic)? (Y/N)").lower()
+        if discord_nitro == 'y':
+            char_limit = 2000
+
         with open(filename, 'r+') as file:
             # Use a set to keep track of unique lines
             unique_lines = set()
@@ -30,8 +33,8 @@ def cleanup(filename):
                     # Write the line to the file
                     file.write(line + '\n')
 
-                    # If we've written 1000 characters or more, add a blank line
-                    if char_count >= 1000:
+                    # If we've written the character limit or more, add a blank line
+                    if char_count >= char_limit:
                         file.write('\n')
 
                         # Reset the character count
