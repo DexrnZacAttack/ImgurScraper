@@ -36,7 +36,8 @@ with open('links.txt', 'a') as file:
         for div in soup.find_all('div', {'data-searchable': True, 'data-findterm': True}):
             links = re.findall(imgur_regex, div.text)
 
-            # Write links to file if not empty
-            if links:
-                file.write("\n".join(links) + "\n")
-                print(f"Links found: {links}")
+            with open("links.txt", "a") as file:
+                for link in links:
+                    if link:  # only write non-empty items to the file
+                        file.write(link + "\n")
+                        print(f"Link found on page {page_num}: {link}")
