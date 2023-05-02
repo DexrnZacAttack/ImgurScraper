@@ -1,6 +1,9 @@
 import requests
 import os
 from bs4 import BeautifulSoup
+import sys
+sys.path.append('../common')
+from cleanup import cleanup
 
 # Print GitHub link so people can report issues or visit the repo.
 print('https://github.com/DexrnZacAttack/ImgurScraper')
@@ -46,3 +49,5 @@ for page_num in range(101, 200):
                 with open('links.txt', 'a') as f:
                     f.write(url + '\n')
                     print(url)
+
+cleanup(os.path.abspath('.'), "links.txt")

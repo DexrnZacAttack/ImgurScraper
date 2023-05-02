@@ -2,6 +2,9 @@ import requests
 import os
 import re
 from bs4 import BeautifulSoup
+import sys
+sys.path.append('../common')
+from cleanup import cleanup
 
 imgur_regex = r'http[s]?://(?:.*\.)?imgur\.com/[^\s]+'
 
@@ -41,3 +44,5 @@ with open('links.txt', 'a') as file:
                     if link:  # only write non-empty items to the file
                         file.write(link + "\n")
                         print(f"Link found on page {page_num}: {link}")
+
+cleanup(os.path.abspath('.'), "links.txt")

@@ -1,6 +1,9 @@
 import os
 import re
 import requests
+import sys
+sys.path.append('../common')
+from cleanup import cleanup
 
 # Print GitHub link so people can report issues or visit the repo.
 print('https://github.com/DexrnZacAttack/ImgurScraper')
@@ -58,3 +61,5 @@ for issue in issues:
                 print(f"Found imgur.com in {imgur_url} in issue {issue_url}")
                 with open(links_file, "a") as f:
                     f.write(f"{imgur_url}\n")
+
+cleanup(os.path.abspath('.'), "links.txt")
