@@ -39,4 +39,4 @@ with open('links.txt', 'a') as file:
             # Write links to file if not empty
             if links:
                 file.write("\n".join(links) + "\n")
-                print(f"Link found: {link.text}")
+                print(f"Links found: {links}")
