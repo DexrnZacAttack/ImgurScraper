@@ -20,8 +20,6 @@ main.py runs the script, usually there are settings in the script that you shoul
 - ConfigParser
 - Urllib
 - Blake3
-### PowerShell
-All dependencies are automatically downloaded for PowerShell.
 
 # Contributors
 - Dexrn#0975
