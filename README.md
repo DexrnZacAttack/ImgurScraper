@@ -10,9 +10,6 @@ Imgur is [deleting](https://help.imgur.com/hc/en-us/articles/14415587638029-Imgu
 
 # How to use
 main.py runs the script, usually there are settings in the script that you should modify.
-<br>
-<br>
-cleanup.py cleans up links.txt, which will remove duplicate links and make Discord-sized chunks ready for Discord batch sending.
 # Dependencies
 ### Global (Python)
 - Python 3.11
@@ -23,8 +20,6 @@ cleanup.py cleans up links.txt, which will remove duplicate links and make Disco
 - ConfigParser
 - Urllib
 - Blake3
-### PowerShell
-All dependencies are automatically downloaded for PowerShell.
 
 # Contributors
 - Dexrn#0975

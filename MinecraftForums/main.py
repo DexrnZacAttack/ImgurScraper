@@ -1,5 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
+import sys
+sys.path.append('../common')
+from cleanup import cleanup
 
 # Print GitHub link so people can report issues or visit the repo.
 print('https://github.com/DexrnZacAttack/ImgurScraper')
@@ -33,3 +36,5 @@ with open('links.txt', 'w') as f:
         # Write each image URL to the text file, one per line
         for url in img_urls:
             f.write(url + '\n')
+
+cleanup(os.path.abspath('.'), "links.txt")

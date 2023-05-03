@@ -3,6 +3,8 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import sys
+sys.path.append('../common')
+from cleanup import cleanup
 # You should set this to something ridiculous
 sys.setrecursionlimit(999999)
 
@@ -60,3 +62,4 @@ def crawl_topics(start_topic_id, end_topic_id):
             print(f"{percent_done}% done.", end="\r")
 
 crawl_topics(start_topic_id, end_topic_id)
+cleanup(os.path.abspath('.'), "links.txt")
