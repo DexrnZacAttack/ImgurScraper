@@ -62,4 +62,5 @@ def crawl_topics(start_topic_id, end_topic_id):
             print(f"{percent_done}% done.", end="\r")
 
 crawl_topics(start_topic_id, end_topic_id)
-cleanup(os.path.abspath('.'), "links.txt")
+cleanup(os.path.abspath('.') + 
+"links.txt")

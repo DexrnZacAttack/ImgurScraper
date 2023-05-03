@@ -62,4 +62,5 @@ for issue in issues:
                 with open(links_file, "a") as f:
                     f.write(f"{imgur_url}\n")
 
-cleanup(os.path.abspath('.'), "links.txt")
+cleanup(os.path.abspath('.') + 
+"links.txt")

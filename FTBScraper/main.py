@@ -51,4 +51,5 @@ for page_num in range(1, 10):
                     f.write(url + '\n')
                     print(url)
 
-cleanup(os.path.abspath('.'), "links.txt")
+cleanup(os.path.abspath('.') + 
+"links.txt")

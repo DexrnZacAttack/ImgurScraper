@@ -37,4 +37,5 @@ with open('links.txt', 'w') as f:
         for url in img_urls:
             f.write(url + '\n')
 
-cleanup(os.path.abspath('.'), "links.txt")
+cleanup(os.path.abspath('.') + 
+"links.txt")

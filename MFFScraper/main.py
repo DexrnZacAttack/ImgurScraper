@@ -45,4 +45,5 @@ with open('links.txt', 'a') as file:
                         file.write(link + "\n")
                         print(f"Link found on page {page_num}: {link}")
 
-cleanup(os.path.abspath('.'), "links.txt")
+cleanup(os.path.abspath('.') + 
+"links.txt")
