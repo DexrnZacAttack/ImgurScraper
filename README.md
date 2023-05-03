@@ -22,6 +22,6 @@ main.py runs the script, usually there are settings in the script that you shoul
 - Blake3
 
 # Contributors
-- Dexrn#0975
 - Boreal#9423
+- Dexrn#0975
 - Maxxx#5509
