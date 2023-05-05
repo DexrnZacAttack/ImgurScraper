@@ -25,3 +25,4 @@ main.py runs the script, usually there are settings in the script that you shoul
 - Boreal#9423
 - Dexrn#0975
 - Maxxx#5509
+- supergamer#8331
